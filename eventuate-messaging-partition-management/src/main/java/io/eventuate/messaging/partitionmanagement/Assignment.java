@@ -5,6 +5,9 @@ import org.apache.commons.lang.builder.ToStringStyle;
 
 import java.util.*;
 
+/**
+ * 作业：渠道、渠道-->分区
+ */
 public class Assignment {
   private Set<String> channels;
   private Map<String, Set<Integer>> partitionAssignmentsByChannel;

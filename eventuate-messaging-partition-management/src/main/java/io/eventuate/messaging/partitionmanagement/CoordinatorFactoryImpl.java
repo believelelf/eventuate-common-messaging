@@ -6,6 +6,9 @@ import io.eventuate.coordination.leadership.LeaderSelectorFactory;
 import java.util.Set;
 import java.util.function.Consumer;
 
+/**
+ * 协调者工厂实现
+ */
 public class CoordinatorFactoryImpl implements CoordinatorFactory {
   private AssignmentManager assignmentManager;
   private AssignmentListenerFactory assignmentListenerFactory;

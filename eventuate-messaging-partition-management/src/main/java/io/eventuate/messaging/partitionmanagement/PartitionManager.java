@@ -10,6 +10,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+/**
+ * 分区管理器
+ */
 public class PartitionManager {
   private Logger logger = LoggerFactory.getLogger(getClass());
 

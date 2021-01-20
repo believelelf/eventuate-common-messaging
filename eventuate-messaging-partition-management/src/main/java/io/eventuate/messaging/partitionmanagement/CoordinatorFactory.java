@@ -5,6 +5,9 @@ import io.eventuate.coordination.leadership.LeaderSelectedCallback;
 import java.util.Set;
 import java.util.function.Consumer;
 
+/**
+ * 协调者工厂
+ */
 public interface CoordinatorFactory {
   Coordinator makeCoordinator(String subscriberId,
                               Set<String> channels,
